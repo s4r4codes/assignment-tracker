@@ -1,0 +1,148 @@
+/* GENERAL STYLING */
+body {
+    font-family: "Tiny5", serif;
+    font-size:25px ;
+    text-align: center;
+    padding: 20px;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 9px;
+    font-family: "Tiny5", serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #000000;
+}
+
+/* FORM STYLING */
+form {
+    color:#101010 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    font-weight: bolder;
+}
+/* FORM INPUTS */
+input, select {
+    font-family: "Tiny5", serif;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #000000;
+    width: 190px; /* Same width as Add Assignment button */
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+button {
+    font-family: "Tiny5", serif;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffbf00;
+    color: #000000;
+    cursor: pointer;
+    width: 180px;
+}
+
+button:hover {
+    background-color: #e6a800;
+}
+
+/* TABLE STYLING */
+table {
+    font-family: "Tiny5", serif;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: #570047;
+    border-radius: 10px;
+}
+
+/* TABLE HEADER */
+thead {
+    background-color: rgb(172, 3, 110) !important;
+    color: #ff75c1 important;
+  }
+
+  
+thead th {
+    font-family:"Tiny5", serif ;
+    background-color: #ff5fb7; 
+    color: #180514;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+th, td {
+    font-family: "Tiny5", serif ;
+    padding: 10px;
+    border: none;
+}
+
+/* STRIPED ROWS */
+tbody tr:nth-child(odd) td {
+    background-color: #ff5fb7; 
+    color: #180514;
+    font-family:"Tiny5", serif ;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #ff75c1; 
+    color: #180514;
+    font-family:"Tiny5", serif;
+    font-weight: bold;
+}
+
+/* Status Dropdown Colors */
+tbody tr:nth-child(odd) select {
+    background-color: #ff5fb7;
+    color: #180514;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) select {
+    background-color: #ff75c1;
+    color: #180514;
+    font-weight: bold;
+  }
+
+/* DELETE BUTTON */
+tbody tr:nth-child(odd) .delete-btn {
+    background-color: #ff5fb7; 
+    color: #180514;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) .delete-btn {
+    background-color: #ff75c1; 
+    color: #180514;
+    font-weight: bold;
+  }
+  
+select option {
+    font-weight: bold;
+}
